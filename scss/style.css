@@ -168,4 +168,123 @@ header .wrapper .promo .cards .first {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
+}
+
+.small-team {
+  margin-top: 200px;
+  margin-bottom: 207px;
+  background-image: url(../img-first-page/small-team-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 560px;
+}
+.small-team .info {
+  padding-top: 167px;
+  padding-left: 190px;
+}
+.small-team .info h4 {
+  width: 445px;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  margin-bottom: 27px;
+}
+.small-team .info .btn {
+  width: 252px;
+}
+.small-team .info .btn a {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  background: #1b1d23;
+  padding: 25px 32px 22px 37px;
+  transition: 0.5s;
+}
+.small-team .info .btn a:hover {
+  transform: scale(0.98);
+  background: #60636d;
+}
+.small-team .info .btn a button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.about-featured {
+  display: flex;
+  column-gap: 495px;
+}
+.about-featured h4 {
+  width: 446px;
+  margin-bottom: 65px;
+  color: #1b1d23;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+.about-featured .btn {
+  width: 252px;
+}
+.about-featured .btn a {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  background: #1b1d23;
+  padding: 25px 32px 22px 37px;
+  transition: 0.5s;
+}
+.about-featured .btn a:hover {
+  transform: scale(0.98);
+  background: #60636d;
+}
+.about-featured .btn a button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+}
+.about .about-first {
+  display: block;
+}
+.about .about-first-tablet {
+  display: none;
+}
+.about .about-first-mobile {
+  display: none;
+}
+.about .about-sec {
+  display: block;
+}
+.about .about-sec-tablet {
+  display: none;
+}
+.about .about-sec-mobile {
+  display: none;
+}
+.about .about-third {
+  display: block;
+}
+.about .about-third-tablet {
+  display: none;
+}
+.about .about-third-mobile {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

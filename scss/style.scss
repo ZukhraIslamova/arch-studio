@@ -166,3 +166,120 @@ header {
         }
     }
 }
+.small-team {
+    margin-top: 200px;
+    margin-bottom: 207px;
+    background-image: url(../img-first-page/small-team-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 560px;
+    .info {
+        padding-top: 167px;
+        padding-left: 190px;
+
+        h4 {
+            width: 445px;
+            color: #fff;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: -2px;
+            margin-bottom: 27px;
+        }
+        .btn {
+            width: 252px;
+            a {
+                display: flex;
+                align-items: center;
+                column-gap: 24px;
+                background: #1b1d23;
+                padding: 25px 32px 22px 37px;
+                transition: 0.5s;
+                &:hover {
+                    transform: scale(0.98);
+                    background: #60636d;
+                }
+                button {
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 25px;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.about-featured {
+    display: flex;
+    column-gap: 495px;
+    h4 {
+        width: 446px;
+        margin-bottom: 65px;
+        color: #1b1d23;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 64px;
+        letter-spacing: -2px;
+    }
+    .btn {
+        width: 252px;
+        a {
+            display: flex;
+            align-items: center;
+            column-gap: 24px;
+            background: #1b1d23;
+            padding: 25px 32px 22px 37px;
+            transition: 0.5s;
+            &:hover {
+                transform: scale(0.98);
+                background: #60636d;
+            }
+            button {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 25px;
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    .about-first{
+        display: block;
+    }
+    .about-first-tablet{
+        display: none;
+    }
+    .about-first-mobile{
+        display: none;
+    }
+    .about-sec{
+        display: block;
+    }
+    .about-sec-tablet{
+        display: none;
+    }
+    .about-sec-mobile{
+        display: none;
+    }
+    .about-third{
+        display: block;
+    }
+    .about-third-tablet{
+        display: none;
+    }
+    .about-third-mobile{
+        display: none;
+    }
+}
