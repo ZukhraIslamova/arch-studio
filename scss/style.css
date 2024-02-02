@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid blue;
 }
 
 ul li,
@@ -16,7 +15,6 @@ a {
 }
 
 body {
-  background-color: bisque;
   font-family: "League Spartan", sans-serif;
 }
 
@@ -32,7 +30,6 @@ header .nav {
   padding: 56px 0;
   display: flex;
   align-items: center;
-  background-color: aqua;
   column-gap: 95px;
 }
 header .nav ul {
@@ -49,6 +46,9 @@ header .nav ul li {
   font-style: normal;
   font-weight: 700;
   line-height: 25px;
+}
+header .nav ul li:hover {
+  color: #1b1d23;
 }
 header .wrapper {
   background-image: url(../img-first-page/promo-background.png);
@@ -80,24 +80,92 @@ header .wrapper .promo p {
   font-weight: 500;
   line-height: 24px;
 }
-header .wrapper .promo button {
-  border: 0;
+header .wrapper .promo .btn {
   width: 252px;
-  height: 72px;
-  background: #1b1d23;
-  padding: 25px 32px 22px 37px;
-  column-gap: 24px;
+}
+header .wrapper .promo .btn a {
   display: flex;
   align-items: center;
+  column-gap: 24px;
+  background: #1b1d23;
+  padding: 25px 32px 22px 37px;
+  transition: 0.5s;
 }
-header .wrapper .promo button p {
-  width: 135px;
+header .wrapper .promo .btn a:hover {
+  transform: scale(0.98);
+  background: #60636d;
+}
+header .wrapper .promo .btn a button {
   color: #fff;
-  text-align: right;
   font-size: 18px;
   font-weight: 700;
   line-height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
-header .wrapper .promo button h3 {
-  color: white;
+header .wrapper .promo .cards {
+  display: flex;
+  align-items: center;
+  transform: translate(-270px, 99px);
+}
+header .wrapper .promo .cards .card {
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  background: white;
+  padding: 28px 32px 27px 31px;
+  color: #7d828f;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+header .wrapper .promo .cards .first {
+  background: #1b1d23;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.introduction {
+  background-image: url(../img-first-page/introduction-background.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 568px;
+  margin-top: 195px;
+}
+.introduction .title {
+  transform: translateY(-85px);
+}
+.introduction .title h2 {
+  color: #eeeff4;
+  font-size: 250px;
+  font-weight: 700;
+  line-height: 200px;
+  letter-spacing: -5px;
+}
+.introduction .title .welcome {
+  transform: translate(189px, -39px);
+}
+.introduction .title .welcome h2 {
+  max-width: 446px;
+  color: #1b1d23;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+.introduction .title .welcome p {
+  max-width: 445px;
+  margin-top: 43px;
+  color: #60636d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */
