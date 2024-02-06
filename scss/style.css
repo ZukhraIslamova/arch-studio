@@ -649,7 +649,7 @@ header .wrapper .promo .cards .first {
     transition: 0.5s;
   }
   .about .btn a:hover {
-    transform: scale(0.98);
+    transform: scale(0.97);
     background: #60636d;
   }
   .about .btn a button {
