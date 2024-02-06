@@ -642,7 +642,7 @@ header .wrapper .promo .cards .first {
   }
   .about .btn a {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     column-gap: 24px;
     background: #1b1d23;
     padding: 25px 32px 22px 37px;
